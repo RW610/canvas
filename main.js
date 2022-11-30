@@ -59,7 +59,7 @@ let rand = function (x) {
     }, 1)
 
 let add = function () {
-      points.push(new ball)
+      points.push(new point)
     }
 
 let remove = function () {
