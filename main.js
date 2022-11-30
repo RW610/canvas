@@ -59,11 +59,11 @@ let rand = function (x) {
     }, 1)
 
 let add = function () {
-      balls.push(new ball)
+      points.push(new ball)
     }
 
 let remove = function () {
-      balls.pop()
+      points.pop()
     }
 
     $("#add").click(add)
