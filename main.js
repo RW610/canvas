@@ -3,7 +3,7 @@ let ctx = canvas.getContext('2d')
 let width = canvas.width
 let height = canvas.height
 let points = []
-let numPoints = 5
+let numPoints = 7
 let hue = Math.random() * 360
 let color = 'hsla(' + (Math.random() * 360) + ', 50%, 50%, 1)'
 
