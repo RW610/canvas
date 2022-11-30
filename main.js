@@ -1,15 +1,11 @@
-let canvas 
-let ctx
-let width
-let height
+let canvas = document.getElementById('canvas')
+let ctx = canvas.getContext('2d')
+let width = canvas.width
+let height = canvas.height
 let points = []
 let numPoints = 5
 let hue = Math.random() * 360
 let color = 'hsla(' + (Math.random() * 360) + ', 50%, 50%, 1)'
-canvas = document.getElementById('canvas')
-ctx = canvas.getContext('2d')
-width = canvas.width
-height = canvas.height
 
 let rand = function (x) {
       return Math.random() * x
