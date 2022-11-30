@@ -1,21 +1,7 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <title>Connected points</title>
-</head>
-
-<body onload="init()">
-
-  <div><canvas id="canvas" width="250" height="250" style=width:250px;height:250px;></canvas></div>
-
-  <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
-  <script>
-    const canvas = document.getElementById('canvas')
-    const ctx = canvas.getContext('2d')
-    const width = canvas.width
-    const height = canvas.height
+const canvas = document.getElementById('canvas')
+const ctx = canvas.getContext('2d')
+const width = canvas.width
+const height = canvas.height
     let points = []
     let numPoints = 5
     let hue = Math.random() * 360
@@ -71,21 +57,3 @@
       ctx.stroke()
       //ctx.strokeRect(0, 0, width, height)
     }, 1)
-
-    let add = function () {
-      points.push(new point)
-    }
-
-    let remove = function () {
-      points.pop()
-    }
-
-    $("#add").click(add)
-    $("#remove").click(remove)
-  //<button id="add">+</button>
-  //<button id="remove">-</button>
-
-  </script>
-</body>
-
-</html>
