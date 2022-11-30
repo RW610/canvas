@@ -55,7 +55,9 @@ let rand = function (x) {
       ctx.fill()
       ctx.strokeStyle = "White"
       ctx.stroke()
-      //ctx.strokeRect(0, 0, width, height)
+      ctx.beginPath()
+      ctx.strokeStyle = "#1C1C1C"
+      ctx.strokeRect(0, 0, width, height)
     }, 1)
 
 let add = function () {
