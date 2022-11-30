@@ -57,3 +57,14 @@ let rand = function (x) {
       ctx.stroke()
       //ctx.strokeRect(0, 0, width, height)
     }, 1)
+
+let add = function () {
+      balls.push(new ball)
+    }
+
+let remove = function () {
+      balls.pop()
+    }
+
+    $("#add").click(add)
+    $("#remove").click(remove)
